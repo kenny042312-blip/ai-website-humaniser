@@ -10,6 +10,12 @@ Distinguish a defect from an inactive condition. A card control may require Card
 
 Keep the editor's own type, surfaces and focus treatment independent of the specimen's experimental tokens. Otherwise an unreadable experiment can also hide the controls needed to recover it. When precise tuning is requested, pair a slider or picker with an editable number or color value. Incomplete input should retain the last valid preview; correction, blur or reset should restore a coherent valid field state.
 
+If inspecting a conditional effect requires leaving the editor, provide a direct way to reach the affected view and return to the same setting. Preserve the query, relevant scroll position and experiment state. When the editor covers the preview, reveal the target instead of merely scrolling it underneath the panel. Opening the target view is navigation, not a new design setting or an Undo step.
+
+Choose an overlay's interaction model deliberately. A panel alongside usable content can remain nonmodal; a panel covering that content must not leave keyboard focus hidden behind it. Use appropriate native semantics, a visible close action and logical focus return. Check both Tab directions and Escape, and preserve a coherent active control when resizing changes the presentation. If another dialog is open, a layout change must not steal its focus. These requirements concern reachability and recovery; they do not prescribe a bottom sheet or force every panel to be modal.
+
+Inspect the space left for controls after headers, comparison, search, navigation and status messages. A width-only check can miss an almost-empty scrolling area in a short window. Allow the whole panel to scroll or compact its structure when needed. Test a valid long saved label in every place it appears, including comparison help and status feedback; truncating its selector alone does not contain the same value elsewhere.
+
 | Group | Useful editable properties | Dependencies to preserve |
 |---|---|---|
 | Typography | Family per role, size, weight, line height, tracking, measure, alignment | Real text wrapping, fallback fonts, supported weights and glyphs |

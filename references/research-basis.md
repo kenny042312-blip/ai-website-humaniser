@@ -47,6 +47,6 @@ Cases contain counterexamples to universal bans on cards, pills, purple, Inter a
 - [Recomputed statistics](../reports/corpus-audit-v2.json): exact counts, host weighting and input SHA-256 hashes.
 - [Visual records](../reports/visual-audit-v2.json): source IDs, URLs, viewports and observed limitations.
 - [Validation record](../reports/validation-v2.md): package checks and the boundary of effectiveness claims.
-- [Low Water implementation study](../reports/low-water-implementation-study.md): a separate local test case behind the 2.0.1 control and review corrections. It adds no external sites to the corpus or rendered-reference counts.
+- [Low Water implementation study](../reports/low-water-implementation-study.md): a separate application test case behind the 2.0.1 and 2.0.2 control and review corrections, with publication and rendering limits. It adds no external sites to the corpus or rendered-reference counts.
 
 Do not describe this as visually reviewing a million sites, proving which sites are human-made, or measuring a preference uplift. The evidence supports a more explicit design process; the user's response to a particular result remains to be observed.
