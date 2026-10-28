@@ -1,8 +1,10 @@
-# AI Website Humaniser 2.0
+# AI Website Humaniser 2.0.1
 
 A Codex skill for turning generic websites into designs whose content, composition and behavior fit their audience and purpose.
 
-**Version:** `2.0.0` · **Release:** [`v2.0.0`](https://github.com/kenny042312-blip/ai-website-humaniser/releases/tag/v2.0.0)
+**Version:** `2.0.1` · **Release:** [`v2.0.1`](https://github.com/kenny042312-blip/ai-website-humaniser/releases/tag/v2.0.1)
+
+Patch 2.0.1 refines the settings and review guidance using observed failures in the Low Water test case: conditional control effects, unintended token coupling, copy-preserving comparisons, input recovery, color roles and printed output. The [implementation study](reports/low-water-implementation-study.md) records those observations. These additions apply when the requested site needs them; the skill does not require a settings editor or saved-version library on ordinary websites.
 
 ## What changes in version 2
 
@@ -51,6 +53,8 @@ Use $ai-website-humaniser to create two layout concepts using identical content,
 | [Corpus audit](reports/corpus-audit-v2.json) | Recomputed measurements and input hashes |
 | [Visual audit](reports/visual-audit-v2.json) | Browser observations and CSS measurements |
 | [Validation](reports/validation-v2.md) | Checks performed and their limits |
+| [Implementation study](reports/low-water-implementation-study.md) | Observed Low Water failures, corrections and conditional transfer lessons |
+| [Patch validation](reports/validation-v2.0.1.md) | Checks for the 2.0.1 guidance update |
 | [Reanalysis script](scripts/reanalyse_corpus.py) | Offline reproduction with the original extracted inputs |
 | [Codex metadata](agents/openai.yaml) | Display name and default prompt |
 

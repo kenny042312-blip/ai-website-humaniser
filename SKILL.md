@@ -2,10 +2,10 @@
 name: ai-website-humaniser
 description: Design or refine websites that feel specific to their subject instead of generic, using reference-led composition, content, and visual review. Use when a user asks for a more human-made feel; not for authorship detection.
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
 ---
 
-# AI Website Humaniser 2.0
+# AI Website Humaniser 2.0.1
 
 Create a site with a recognizable point of view whose content, composition and behavior follow from its purpose. “Human-made” is the user's design judgment, not a detectable authorship class. Do the requested work; the skill is not a reason to replace a small edit with a redesign or a research project.
 
