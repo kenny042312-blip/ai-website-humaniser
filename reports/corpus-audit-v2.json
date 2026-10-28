@@ -1,0 +1,1621 @@
+{
+  "combined": {
+    "exact_url_overlap": 0,
+    "exact_urls": 1009098,
+    "hosts": 2230,
+    "http_targets": 1008158,
+    "logged_records": 41215,
+    "logged_unique_targets": 40498,
+    "master_hosts_new_to_earlier": 56,
+    "rows": 1010816,
+    "target_overlap": 2
+  },
+  "earlier": {
+    "exact_urls": 10816,
+    "hosts": 2174,
+    "http_targets": 10100,
+    "live": {
+      "candidate_final_targets": 7734,
+      "candidate_hosts": 1564,
+      "candidate_records_before_target_dedup": 8338,
+      "candidate_records_in_repeated_snapshot_groups": 319,
+      "candidate_repeated_snapshot_groups": 132,
+      "candidate_snapshot_signatures": 7711,
+      "candidate_targets": 7898,
+      "candidate_top_hosts": [
+        [
+          "github.com",
+          2424
+        ],
+        [
+          "developer.mozilla.org",
+          640
+        ],
+        [
+          "p5js.org",
+          200
+        ],
+        [
+          "docs.godotengine.org",
+          198
+        ],
+        [
+          "docs.python.org",
+          185
+        ],
+        [
+          "tailwindcss.com",
+          167
+        ],
+        [
+          "aws.amazon.com",
+          136
+        ],
+        [
+          "react-spectrum.adobe.com",
+          113
+        ],
+        [
+          "mantine.dev",
+          97
+        ],
+        [
+          "pkg.go.dev",
+          95
+        ],
+        [
+          "chakra-ui.com",
+          85
+        ],
+        [
+          "element-plus.org",
+          76
+        ]
+      ],
+      "features": {
+        "aria_label": {
+          "mean_of_within_host_rates": 0.8275497471473166,
+          "target_rate": 0.9441630792605723,
+          "targets": 7457
+        },
+        "form_tag": {
+          "mean_of_within_host_rates": 0.3080035770108407,
+          "target_rate": 0.2637376551025576,
+          "targets": 2083
+        },
+        "h1_in_saved_headings": {
+          "mean_of_within_host_rates": 0.9106658083157331,
+          "target_rate": 0.8642694353000759,
+          "targets": 6826
+        },
+        "h1_tag": {
+          "mean_of_within_host_rates": 0.9314236606082461,
+          "target_rate": 0.9111167384147886,
+          "targets": 7196
+        },
+        "image_tag": {
+          "mean_of_within_host_rates": 0.9284162042753187,
+          "target_rate": 0.779564446695366,
+          "targets": 6157
+        },
+        "main_tag": {
+          "mean_of_within_host_rates": 0.7220449935369081,
+          "target_rate": 0.8347682957710812,
+          "targets": 6593
+        },
+        "nav_tag": {
+          "mean_of_within_host_rates": 0.8383024496710721,
+          "target_rate": 0.9282096733350216,
+          "targets": 7331
+        }
+      },
+      "h1_disagreement_examples": [
+        {
+          "h1_tags": 1,
+          "id": 105,
+          "saved_heading_count": 16,
+          "url": "https://www.skeleton.dev/"
+        },
+        {
+          "h1_tags": 2,
+          "id": 214,
+          "saved_heading_count": 16,
+          "url": "https://webflow.com/"
+        },
+        {
+          "h1_tags": 1,
+          "id": 260,
+          "saved_heading_count": 6,
+          "url": "https://reactrouter.com/"
+        },
+        {
+          "h1_tags": 1,
+          "id": 264,
+          "saved_heading_count": 13,
+          "url": "https://preactjs.com/"
+        },
+        {
+          "h1_tags": 1,
+          "id": 449,
+          "saved_heading_count": 16,
+          "url": "https://www.smashingmagazine.com/"
+        }
+      ],
+      "h1_disagreements_with_heading_list_at_16": 368,
+      "http_responses": 10340,
+      "input_hosts": 2174,
+      "legacy_screened_classes": {
+        "directory-only": 1992,
+        "metadata-only": 306,
+        "non-html-response": 106,
+        "server-html-structure": 8376,
+        "thin-or-shell": 36
+      },
+      "legacy_structural_h1_tag_present": 7671,
+      "legacy_structural_h1_text_present": 7298,
+      "legacy_structural_h1_text_tag_disagreements": 373,
+      "legacy_structural_image_elements": 151261,
+      "legacy_structural_nonempty_alt": 91572,
+      "raw_evidence_classes": {
+        "directory-only": 1992,
+        "metadata-only": 306,
+        "non-html-response": 106,
+        "server-html-structure": 8412
+      },
+      "records": 10816,
+      "robots_allowed": 10671,
+      "saved_action_list_at_18": 7984,
+      "saved_heading_list_at_16": 5112,
+      "saved_navigation_list_at_12": 6179,
+      "snapshot_dates": [
+        "2026-10-23T13:02:12.226403+00:00",
+        "2026-10-25T10:44:03.958795+00:00"
+      ],
+      "statuses": {
+        "0": 476,
+        "200": 9407,
+        "202": 2,
+        "301": 14,
+        "302": 1,
+        "307": 1,
+        "401": 1,
+        "403": 51,
+        "404": 782,
+        "429": 61,
+        "500": 19,
+        "503": 1
+      },
+      "structural_record_flags": {
+        "shell_or_error_text": 4,
+        "suspect_heading_text": 32,
+        "transport_or_body_error": 39
+      },
+      "unique_ids": 10816,
+      "unique_input_targets": 10100
+    },
+    "rows": 10816,
+    "volumes": {
+      "volume_1": {
+        "hosts": 959,
+        "live": {
+          "candidate_final_targets": 700,
+          "candidate_hosts": 675,
+          "candidate_records_before_target_dedup": 706,
+          "candidate_records_in_repeated_snapshot_groups": 11,
+          "candidate_repeated_snapshot_groups": 5,
+          "candidate_snapshot_signatures": 700,
+          "candidate_targets": 706,
+          "candidate_top_hosts": [
+            [
+              "www.awwwards.com",
+              6
+            ],
+            [
+              "github.com",
+              6
+            ],
+            [
+              "linear.app",
+              4
+            ],
+            [
+              "vercel.com",
+              3
+            ],
+            [
+              "tailwindcss.com",
+              3
+            ],
+            [
+              "www.figma.com",
+              2
+            ],
+            [
+              "www.radix-ui.com",
+              2
+            ],
+            [
+              "tanstack.com",
+              2
+            ],
+            [
+              "webflow.com",
+              2
+            ],
+            [
+              "www.cosmos.so",
+              2
+            ],
+            [
+              "amie.so",
+              2
+            ],
+            [
+              "www.raycast.com",
+              2
+            ]
+          ],
+          "features": {
+            "aria_label": {
+              "mean_of_within_host_rates": 0.8360493827160493,
+              "target_rate": 0.8413597733711048,
+              "targets": 594
+            },
+            "form_tag": {
+              "mean_of_within_host_rates": 0.3214814814814815,
+              "target_rate": 0.32011331444759206,
+              "targets": 226
+            },
+            "h1_in_saved_headings": {
+              "mean_of_within_host_rates": 0.8967901234567901,
+              "target_rate": 0.896600566572238,
+              "targets": 633
+            },
+            "h1_tag": {
+              "mean_of_within_host_rates": 0.9187654320987654,
+              "target_rate": 0.9192634560906515,
+              "targets": 649
+            },
+            "image_tag": {
+              "mean_of_within_host_rates": 0.9230864197530865,
+              "target_rate": 0.9192634560906515,
+              "targets": 649
+            },
+            "main_tag": {
+              "mean_of_within_host_rates": 0.7345679012345679,
+              "target_rate": 0.7337110481586402,
+              "targets": 518
+            },
+            "nav_tag": {
+              "mean_of_within_host_rates": 0.8251851851851851,
+              "target_rate": 0.8271954674220963,
+              "targets": 584
+            }
+          },
+          "h1_disagreement_examples": [
+            {
+              "h1_tags": 1,
+              "id": 105,
+              "saved_heading_count": 16,
+              "url": "https://www.skeleton.dev/"
+            },
+            {
+              "h1_tags": 2,
+              "id": 214,
+              "saved_heading_count": 16,
+              "url": "https://webflow.com/"
+            },
+            {
+              "h1_tags": 1,
+              "id": 260,
+              "saved_heading_count": 6,
+              "url": "https://reactrouter.com/"
+            },
+            {
+              "h1_tags": 1,
+              "id": 264,
+              "saved_heading_count": 13,
+              "url": "https://preactjs.com/"
+            },
+            {
+              "h1_tags": 1,
+              "id": 449,
+              "saved_heading_count": 16,
+              "url": "https://www.smashingmagazine.com/"
+            }
+          ],
+          "h1_disagreements_with_heading_list_at_16": 13,
+          "http_responses": 933,
+          "input_hosts": 959,
+          "legacy_screened_classes": {
+            "directory-only": 196,
+            "metadata-only": 80,
+            "server-html-structure": 710,
+            "thin-or-shell": 14
+          },
+          "legacy_structural_h1_tag_present": 652,
+          "legacy_structural_h1_text_present": 636,
+          "legacy_structural_h1_text_tag_disagreements": 16,
+          "legacy_structural_image_elements": 35557,
+          "legacy_structural_nonempty_alt": 20749,
+          "raw_evidence_classes": {
+            "directory-only": 196,
+            "metadata-only": 80,
+            "server-html-structure": 724
+          },
+          "records": 1000,
+          "robots_allowed": 934,
+          "saved_action_list_at_18": 652,
+          "saved_heading_list_at_16": 345,
+          "saved_navigation_list_at_12": 298,
+          "snapshot_dates": [
+            "2026-10-23T13:02:12.226403+00:00",
+            "2026-10-23T13:06:28.476413+00:00"
+          ],
+          "statuses": {
+            "0": 67,
+            "200": 896,
+            "202": 2,
+            "401": 1,
+            "403": 27,
+            "404": 4,
+            "429": 2,
+            "503": 1
+          },
+          "structural_record_flags": {
+            "shell_or_error_text": 4,
+            "suspect_heading_text": 10,
+            "transport_or_body_error": 4
+          },
+          "unique_ids": 1000,
+          "unique_input_targets": 1000
+        },
+        "rows": 1000
+      },
+      "volume_2": {
+        "hosts": 1135,
+        "live": {
+          "candidate_final_targets": 3606,
+          "candidate_hosts": 828,
+          "candidate_records_before_target_dedup": 3888,
+          "candidate_records_in_repeated_snapshot_groups": 13,
+          "candidate_repeated_snapshot_groups": 6,
+          "candidate_snapshot_signatures": 3607,
+          "candidate_targets": 3614,
+          "candidate_top_hosts": [
+            [
+              "github.com",
+              2079
+            ],
+            [
+              "mantine.dev",
+              96
+            ],
+            [
+              "chakra-ui.com",
+              85
+            ],
+            [
+              "ant.design",
+              69
+            ],
+            [
+              "daisyui.com",
+              61
+            ],
+            [
+              "nodejs.org",
+              57
+            ],
+            [
+              "developer.mozilla.org",
+              53
+            ],
+            [
+              "ui.shadcn.com",
+              48
+            ],
+            [
+              "mui.com",
+              43
+            ],
+            [
+              "flowbite.com",
+              36
+            ],
+            [
+              "web.dev",
+              31
+            ],
+            [
+              "react.dev",
+              28
+            ]
+          ],
+          "features": {
+            "aria_label": {
+              "mean_of_within_host_rates": 0.8152173913043478,
+              "target_rate": 0.9571112340896514,
+              "targets": 3459
+            },
+            "form_tag": {
+              "mean_of_within_host_rates": 0.2927610712275625,
+              "target_rate": 0.13696734919756504,
+              "targets": 495
+            },
+            "h1_in_saved_headings": {
+              "mean_of_within_host_rates": 0.9212163328709222,
+              "target_rate": 0.8209739900387383,
+              "targets": 2967
+            },
+            "h1_tag": {
+              "mean_of_within_host_rates": 0.9405870587633872,
+              "target_rate": 0.84781405644715,
+              "targets": 3064
+            },
+            "image_tag": {
+              "mean_of_within_host_rates": 0.9397602030807944,
+              "target_rate": 0.883508577753182,
+              "targets": 3193
+            },
+            "main_tag": {
+              "mean_of_within_host_rates": 0.704191675206168,
+              "target_rate": 0.9009407858328722,
+              "targets": 3256
+            },
+            "nav_tag": {
+              "mean_of_within_host_rates": 0.8514842820135826,
+              "target_rate": 0.9316546762589928,
+              "targets": 3367
+            }
+          },
+          "h1_disagreement_examples": [
+            {
+              "h1_tags": 1,
+              "id": 1140,
+              "saved_heading_count": 16,
+              "url": "https://fffuel.co/"
+            },
+            {
+              "h1_tags": 1,
+              "id": 1173,
+              "saved_heading_count": 11,
+              "url": "https://leafletjs.com/"
+            },
+            {
+              "h1_tags": 2,
+              "id": 1253,
+              "saved_heading_count": 16,
+              "url": "https://github.com/pinterest/gestalt"
+            },
+            {
+              "h1_tags": 1,
+              "id": 1270,
+              "saved_heading_count": 16,
+              "url": "https://github.com/SAP/ui5-webcomponents"
+            },
+            {
+              "h1_tags": 1,
+              "id": 1294,
+              "saved_heading_count": 16,
+              "url": "https://github.com/kobaltedev/kobalte"
+            }
+          ],
+          "h1_disagreements_with_heading_list_at_16": 97,
+          "http_responses": 4637,
+          "input_hosts": 1135,
+          "legacy_screened_classes": {
+            "directory-only": 996,
+            "metadata-only": 70,
+            "non-html-response": 1,
+            "server-html-structure": 3919,
+            "thin-or-shell": 14
+          },
+          "legacy_structural_h1_tag_present": 3367,
+          "legacy_structural_h1_text_present": 3268,
+          "legacy_structural_h1_text_tag_disagreements": 99,
+          "legacy_structural_image_elements": 82152,
+          "legacy_structural_nonempty_alt": 51725,
+          "raw_evidence_classes": {
+            "directory-only": 996,
+            "metadata-only": 70,
+            "non-html-response": 1,
+            "server-html-structure": 3933
+          },
+          "records": 5000,
+          "robots_allowed": 4933,
+          "saved_action_list_at_18": 3634,
+          "saved_heading_list_at_16": 2931,
+          "saved_navigation_list_at_12": 2987,
+          "snapshot_dates": [
+            "2026-10-24T08:02:00.579602+00:00",
+            "2026-10-24T13:19:58.646462+00:00"
+          ],
+          "statuses": {
+            "0": 363,
+            "200": 4281,
+            "301": 7,
+            "307": 1,
+            "403": 20,
+            "404": 327,
+            "429": 1
+          },
+          "structural_record_flags": {
+            "suspect_heading_text": 14,
+            "transport_or_body_error": 32
+          },
+          "unique_ids": 5000,
+          "unique_input_targets": 4450
+        },
+        "rows": 5000
+      },
+      "volume_3": {
+        "hosts": 163,
+        "live": {
+          "candidate_final_targets": 3530,
+          "candidate_hosts": 121,
+          "candidate_records_before_target_dedup": 3744,
+          "candidate_records_in_repeated_snapshot_groups": 96,
+          "candidate_repeated_snapshot_groups": 23,
+          "candidate_snapshot_signatures": 3506,
+          "candidate_targets": 3579,
+          "candidate_top_hosts": [
+            [
+              "developer.mozilla.org",
+              586
+            ],
+            [
+              "github.com",
+              339
+            ],
+            [
+              "p5js.org",
+              198
+            ],
+            [
+              "docs.godotengine.org",
+              198
+            ],
+            [
+              "docs.python.org",
+              184
+            ],
+            [
+              "tailwindcss.com",
+              164
+            ],
+            [
+              "aws.amazon.com",
+              136
+            ],
+            [
+              "react-spectrum.adobe.com",
+              113
+            ],
+            [
+              "pkg.go.dev",
+              94
+            ],
+            [
+              "element-plus.org",
+              75
+            ],
+            [
+              "getbootstrap.com",
+              72
+            ],
+            [
+              "aframe.io",
+              72
+            ]
+          ],
+          "features": {
+            "aria_label": {
+              "mean_of_within_host_rates": 0.9032743138415121,
+              "target_rate": 0.9511036602402906,
+              "targets": 3404
+            },
+            "form_tag": {
+              "mean_of_within_host_rates": 0.40008563853138734,
+              "target_rate": 0.38055322715842416,
+              "targets": 1362
+            },
+            "h1_in_saved_headings": {
+              "mean_of_within_host_rates": 0.9143199841011211,
+              "target_rate": 0.9016485051690416,
+              "targets": 3227
+            },
+            "h1_tag": {
+              "mean_of_within_host_rates": 0.9388571347647234,
+              "target_rate": 0.9734562727018721,
+              "targets": 3484
+            },
+            "image_tag": {
+              "mean_of_within_host_rates": 0.8624697685682478,
+              "target_rate": 0.6468287231070131,
+              "targets": 2315
+            },
+            "main_tag": {
+              "mean_of_within_host_rates": 0.7698610807759843,
+              "target_rate": 0.7876501816149762,
+              "targets": 2819
+            },
+            "nav_tag": {
+              "mean_of_within_host_rates": 0.8435429099807227,
+              "target_rate": 0.9443978765018162,
+              "targets": 3380
+            }
+          },
+          "h1_disagreement_examples": [
+            {
+              "h1_tags": 1,
+              "id": 6041,
+              "saved_heading_count": 16,
+              "url": "https://tailwindcss.com/docs/aspect-ratio"
+            },
+            {
+              "h1_tags": 1,
+              "id": 6042,
+              "saved_heading_count": 16,
+              "url": "https://tailwindcss.com/docs/container"
+            },
+            {
+              "h1_tags": 1,
+              "id": 6043,
+              "saved_heading_count": 16,
+              "url": "https://tailwindcss.com/docs/columns"
+            },
+            {
+              "h1_tags": 1,
+              "id": 6044,
+              "saved_heading_count": 16,
+              "url": "https://tailwindcss.com/docs/break-after"
+            },
+            {
+              "h1_tags": 1,
+              "id": 6045,
+              "saved_heading_count": 16,
+              "url": "https://tailwindcss.com/docs/break-before"
+            }
+          ],
+          "h1_disagreements_with_heading_list_at_16": 258,
+          "http_responses": 4770,
+          "input_hosts": 163,
+          "legacy_screened_classes": {
+            "directory-only": 800,
+            "metadata-only": 156,
+            "non-html-response": 105,
+            "server-html-structure": 3747,
+            "thin-or-shell": 8
+          },
+          "legacy_structural_h1_tag_present": 3652,
+          "legacy_structural_h1_text_present": 3394,
+          "legacy_structural_h1_text_tag_disagreements": 258,
+          "legacy_structural_image_elements": 33552,
+          "legacy_structural_nonempty_alt": 19098,
+          "raw_evidence_classes": {
+            "directory-only": 800,
+            "metadata-only": 156,
+            "non-html-response": 105,
+            "server-html-structure": 3755
+          },
+          "records": 4816,
+          "robots_allowed": 4804,
+          "saved_action_list_at_18": 3698,
+          "saved_heading_list_at_16": 1836,
+          "saved_navigation_list_at_12": 2894,
+          "snapshot_dates": [
+            "2026-10-25T09:34:10.842064+00:00",
+            "2026-10-25T10:44:03.958795+00:00"
+          ],
+          "statuses": {
+            "0": 46,
+            "200": 4230,
+            "301": 7,
+            "302": 1,
+            "403": 4,
+            "404": 451,
+            "429": 58,
+            "500": 19
+          },
+          "structural_record_flags": {
+            "suspect_heading_text": 8,
+            "transport_or_body_error": 3
+          },
+          "unique_ids": 4816,
+          "unique_input_targets": 4651
+        },
+        "rows": 4816
+      }
+    }
+  },
+  "inputs": [
+    {
+      "bytes": 372335,
+      "path": "directory-entries.json",
+      "sha256": "ee30f898254199afa0537f9ff386390268f873bc155be09d05619e2a0a89bd35"
+    },
+    {
+      "bytes": 3761852,
+      "path": "live-observations.json",
+      "sha256": "f8a0eca609d6f63a21eef28119c0468e82fb495aa6a8f94df195248a34807913"
+    },
+    {
+      "bytes": 2141144,
+      "path": "additional-5000/directory-entries.json",
+      "sha256": "03888bf3d0b74aac259fff6834055a349dd46f052b6c908500b4dd7f0be1d5e9"
+    },
+    {
+      "bytes": 21087708,
+      "path": "additional-5000/live-observations.json",
+      "sha256": "c3c2378a0e0a920b3f40fe42b2c2e79937787866dd9511c76294854ffc29cab5"
+    },
+    {
+      "bytes": 2204024,
+      "path": "volume3/directory-entries.json",
+      "sha256": "c714443ac45defa14769d9291f9544a893505ff294ff9032166440e6ec27494c"
+    },
+    {
+      "bytes": 17753825,
+      "path": "volume3/live-observations.json",
+      "sha256": "52cec68b0aa125fd539570ef5eb207b727be3dde60401ba6e8033bf2504ddf73"
+    },
+    {
+      "bytes": 79901086,
+      "path": "master-million/directory-entries.tsv",
+      "sha256": "a27bd2290790467374177c235a144e60a01cb71c3e38cd6ec6929d2278424540"
+    },
+    {
+      "bytes": 22592387,
+      "path": "master-million/live-observations.jsonl",
+      "sha256": "ff82f9e7806d3690c4bd8f8bb1f1ae2996a02f0b02a9d654025dfada7093c915"
+    }
+  ],
+  "master": {
+    "duplicate_exact_rows": 1718,
+    "exact_urls": 998282,
+    "hosts": 180,
+    "http_targets": 998060,
+    "identical_path_sets": [
+      {
+        "distinct_host_path_pairs": 236600,
+        "hosts": [
+          "atlassian.com",
+          "clerk.com",
+          "cloudflare.com",
+          "datadoghq.com",
+          "hubspot.com",
+          "linear.app",
+          "posthog.com",
+          "raycast.com",
+          "resend.com",
+          "stripe.com",
+          "supabase.com",
+          "twilio.com",
+          "vercel.com"
+        ],
+        "path_set_sha256": "63953293ebc298476f49af04d82bb24c890fa17465ec9cdd34ef5404029242bd",
+        "paths_per_host": 18200,
+        "section": 3
+      },
+      {
+        "distinct_host_path_pairs": 91500,
+        "hosts": [
+          "developer.playcanvas.com",
+          "pixijs.com",
+          "pixijs.download",
+          "playground.babylonjs.com",
+          "threejs.org"
+        ],
+        "path_set_sha256": "ab50efc506ab61db7dfcc05267790ce893878d65752de5063c6798d14a0ad0e5",
+        "paths_per_host": 18300,
+        "section": 4
+      },
+      {
+        "distinct_host_path_pairs": 50220,
+        "hosts": [
+          "naiveui.com",
+          "primereact.org",
+          "shoelace.style"
+        ],
+        "path_set_sha256": "79c3a1eb3ad62c1e20a7ab5b6ebd1398eb82c688a3756ef85cf3aa11d52b0cd6",
+        "paths_per_host": 16740,
+        "section": 1
+      }
+    ],
+    "inverse_host_concentration": 43.435137249120444,
+    "live": {
+      "candidate_final_targets": 1013,
+      "candidate_hosts": 25,
+      "candidate_records_before_target_dedup": 1106,
+      "candidate_records_in_repeated_snapshot_groups": 100,
+      "candidate_repeated_snapshot_groups": 6,
+      "candidate_snapshot_signatures": 1012,
+      "candidate_targets": 1106,
+      "candidate_top_hosts": [
+        [
+          "ionicframework.com",
+          92
+        ],
+        [
+          "paste.twilio.design",
+          90
+        ],
+        [
+          "primevue.org",
+          89
+        ],
+        [
+          "www.patternfly.org",
+          82
+        ],
+        [
+          "primeng.org",
+          80
+        ],
+        [
+          "gestalt.pinterest.systems",
+          79
+        ],
+        [
+          "element-plus.org",
+          78
+        ],
+        [
+          "semi.design",
+          67
+        ],
+        [
+          "design-system.service.gov.uk",
+          64
+        ],
+        [
+          "designsystem.digital.gov",
+          57
+        ],
+        [
+          "flowbite.com",
+          45
+        ],
+        [
+          "www.bits-ui.com",
+          40
+        ]
+      ],
+      "features": {
+        "aria_label": {
+          "mean_of_within_host_rates": 0.9985964912280701,
+          "target_rate": 0.9981916817359855,
+          "targets": 1104
+        },
+        "form_tag": {
+          "mean_of_within_host_rates": 0.3638811949740204,
+          "target_rate": 0.34900542495479203,
+          "targets": 386
+        },
+        "h1_in_saved_headings": {
+          "mean_of_within_host_rates": 0.92125,
+          "target_rate": 0.9113924050632911,
+          "targets": 1008
+        },
+        "h1_tag": {
+          "mean_of_within_host_rates": 0.94,
+          "target_rate": 0.9385171790235082,
+          "targets": 1038
+        },
+        "image_tag": {
+          "mean_of_within_host_rates": 0.5597979790024733,
+          "target_rate": 0.6491862567811935,
+          "targets": 718
+        },
+        "main_tag": {
+          "mean_of_within_host_rates": 0.7985964912280702,
+          "target_rate": 0.7061482820976492,
+          "targets": 781
+        },
+        "nav_tag": {
+          "mean_of_within_host_rates": 0.957384370015949,
+          "target_rate": 0.9367088607594937,
+          "targets": 1036
+        }
+      },
+      "h1_disagreement_examples": [
+        {
+          "h1_tags": 1,
+          "id": 276,
+          "saved_heading_count": 16,
+          "url": "https://design-system.service.gov.uk/styles/colour"
+        },
+        {
+          "h1_tags": 1,
+          "id": 277,
+          "saved_heading_count": 16,
+          "url": "https://design-system.service.gov.uk/styles/images"
+        },
+        {
+          "h1_tags": 1,
+          "id": 278,
+          "saved_heading_count": 16,
+          "url": "https://design-system.service.gov.uk/styles/layout"
+        },
+        {
+          "h1_tags": 1,
+          "id": 279,
+          "saved_heading_count": 16,
+          "url": "https://design-system.service.gov.uk/styles/page-template"
+        },
+        {
+          "h1_tags": 1,
+          "id": 280,
+          "saved_heading_count": 16,
+          "url": "https://design-system.service.gov.uk/styles/paragraphs"
+        }
+      ],
+      "h1_disagreements_with_heading_list_at_16": 30,
+      "http_responses": 29807,
+      "input_hosts": 39,
+      "legacy_screened_classes": {
+        "directory-only": 28901,
+        "metadata-only": 251,
+        "server-html-structure": 1107,
+        "thin-or-shell": 140
+      },
+      "legacy_structural_h1_tag_present": 1039,
+      "legacy_structural_h1_text_present": 1009,
+      "legacy_structural_h1_text_tag_disagreements": 30,
+      "legacy_structural_image_elements": 6290,
+      "legacy_structural_nonempty_alt": 2577,
+      "raw_evidence_classes": {
+        "directory-only": 28901,
+        "metadata-only": 251,
+        "server-html-structure": 1247
+      },
+      "records": 30399,
+      "robots_allowed": 30029,
+      "saved_action_list_at_18": 1105,
+      "saved_heading_list_at_16": 615,
+      "saved_navigation_list_at_12": 909,
+      "snapshot_dates": [
+        "2026-10-26T05:01:17.604470+00:00",
+        "2026-10-26T11:45:33.773507+00:00"
+      ],
+      "statuses": {
+        "0": 592,
+        "200": 1674,
+        "404": 28128,
+        "410": 3,
+        "500": 1,
+        "502": 1
+      },
+      "structural_record_flags": {
+        "shell_or_error_text": 140,
+        "transport_or_body_error": 1
+      },
+      "unique_ids": 30399,
+      "unique_input_targets": 30399
+    },
+    "live_by_host": [
+      {
+        "host": "m3.material.io",
+        "raw_structural": 0,
+        "recorded": 16793,
+        "screened_structural": 0,
+        "status_200": 80,
+        "status_404": 16506
+      },
+      {
+        "host": "developer.apple.com",
+        "raw_structural": 140,
+        "recorded": 11455,
+        "screened_structural": 0,
+        "status_200": 140,
+        "status_404": 11314
+      },
+      {
+        "host": "www.patternfly.org",
+        "raw_structural": 82,
+        "recorded": 99,
+        "screened_structural": 82,
+        "status_200": 82,
+        "status_404": 17
+      },
+      {
+        "host": "primeng.org",
+        "raw_structural": 80,
+        "recorded": 95,
+        "screened_structural": 80,
+        "status_200": 95,
+        "status_404": 0
+      },
+      {
+        "host": "ionicframework.com",
+        "raw_structural": 92,
+        "recorded": 93,
+        "screened_structural": 92,
+        "status_200": 92,
+        "status_404": 1
+      },
+      {
+        "host": "thumbprint.design",
+        "raw_structural": 34,
+        "recorded": 91,
+        "screened_structural": 34,
+        "status_200": 34,
+        "status_404": 56
+      },
+      {
+        "host": "primevue.org",
+        "raw_structural": 89,
+        "recorded": 90,
+        "screened_structural": 89,
+        "status_200": 89,
+        "status_404": 1
+      },
+      {
+        "host": "paste.twilio.design",
+        "raw_structural": 90,
+        "recorded": 90,
+        "screened_structural": 90,
+        "status_200": 90,
+        "status_404": 0
+      },
+      {
+        "host": "www.naiveui.com",
+        "raw_structural": 0,
+        "recorded": 87,
+        "screened_structural": 0,
+        "status_200": 0,
+        "status_404": 87
+      },
+      {
+        "host": "orbit.kiwi",
+        "raw_structural": 0,
+        "recorded": 87,
+        "screened_structural": 0,
+        "status_200": 0,
+        "status_404": 0
+      },
+      {
+        "host": "gestalt.pinterest.systems",
+        "raw_structural": 79,
+        "recorded": 84,
+        "screened_structural": 79,
+        "status_200": 79,
+        "status_404": 5
+      },
+      {
+        "host": "workbench.gusto.com",
+        "raw_structural": 0,
+        "recorded": 83,
+        "screened_structural": 0,
+        "status_200": 0,
+        "status_404": 0
+      },
+      {
+        "host": "canvas.workday.com",
+        "raw_structural": 0,
+        "recorded": 80,
+        "screened_structural": 0,
+        "status_200": 0,
+        "status_404": 0
+      },
+      {
+        "host": "element-plus.org",
+        "raw_structural": 78,
+        "recorded": 79,
+        "screened_structural": 78,
+        "status_200": 79,
+        "status_404": 0
+      },
+      {
+        "host": "semi.design",
+        "raw_structural": 67,
+        "recorded": 79,
+        "screened_structural": 67,
+        "status_200": 79,
+        "status_404": 0
+      },
+      {
+        "host": "atlassian.design",
+        "raw_structural": 8,
+        "recorded": 79,
+        "screened_structural": 8,
+        "status_200": 64,
+        "status_404": 14
+      },
+      {
+        "host": "tdesign.tencent.com",
+        "raw_structural": 0,
+        "recorded": 73,
+        "screened_structural": 0,
+        "status_200": 73,
+        "status_404": 0
+      },
+      {
+        "host": "baseweb.design",
+        "raw_structural": 0,
+        "recorded": 73,
+        "screened_structural": 0,
+        "status_200": 65,
+        "status_404": 8
+      },
+      {
+        "host": "design-system.service.gov.uk",
+        "raw_structural": 64,
+        "recorded": 70,
+        "screened_structural": 64,
+        "status_200": 64,
+        "status_404": 3
+      },
+      {
+        "host": "arco.design",
+        "raw_structural": 0,
+        "recorded": 70,
+        "screened_structural": 0,
+        "status_200": 70,
+        "status_404": 0
+      },
+      {
+        "host": "designsystem.digital.gov",
+        "raw_structural": 57,
+        "recorded": 64,
+        "screened_structural": 57,
+        "status_200": 57,
+        "status_404": 7
+      },
+      {
+        "host": "nordhealth.design",
+        "raw_structural": 0,
+        "recorded": 63,
+        "screened_structural": 0,
+        "status_200": 0,
+        "status_404": 63
+      },
+      {
+        "host": "design.gitlab.com",
+        "raw_structural": 0,
+        "recorded": 62,
+        "screened_structural": 0,
+        "status_200": 0,
+        "status_404": 0
+      },
+      {
+        "host": "helios.hashicorp.design",
+        "raw_structural": 10,
+        "recorded": 62,
+        "screened_structural": 10,
+        "status_200": 62,
+        "status_404": 0
+      },
+      {
+        "host": "vaadin.com",
+        "raw_structural": 0,
+        "recorded": 58,
+        "screened_structural": 0,
+        "status_200": 0,
+        "status_404": 0
+      },
+      {
+        "host": "flowbite.com",
+        "raw_structural": 45,
+        "recorded": 53,
+        "screened_structural": 45,
+        "status_200": 45,
+        "status_404": 3
+      },
+      {
+        "host": "garden.zendesk.com",
+        "raw_structural": 35,
+        "recorded": 52,
+        "screened_structural": 35,
+        "status_200": 35,
+        "status_404": 17
+      },
+      {
+        "host": "design.visa.com",
+        "raw_structural": 33,
+        "recorded": 51,
+        "screened_structural": 33,
+        "status_200": 33,
+        "status_404": 18
+      },
+      {
+        "host": "service-manual.nhs.uk",
+        "raw_structural": 40,
+        "recorded": 45,
+        "screened_structural": 40,
+        "status_200": 40,
+        "status_404": 5
+      },
+      {
+        "host": "zagjs.com",
+        "raw_structural": 39,
+        "recorded": 40,
+        "screened_structural": 39,
+        "status_200": 39,
+        "status_404": 0
+      },
+      {
+        "host": "www.bits-ui.com",
+        "raw_structural": 40,
+        "recorded": 40,
+        "screened_structural": 40,
+        "status_200": 40,
+        "status_404": 0
+      },
+      {
+        "host": "www.melt-ui.com",
+        "raw_structural": 34,
+        "recorded": 34,
+        "screened_structural": 34,
+        "status_200": 34,
+        "status_404": 0
+      },
+      {
+        "host": "vuetifyjs.com",
+        "raw_structural": 0,
+        "recorded": 9,
+        "screened_structural": 0,
+        "status_200": 2,
+        "status_404": 0
+      },
+      {
+        "host": "quasar.dev",
+        "raw_structural": 2,
+        "recorded": 5,
+        "screened_structural": 2,
+        "status_200": 2,
+        "status_404": 2
+      },
+      {
+        "host": "ariakit.org",
+        "raw_structural": 4,
+        "recorded": 5,
+        "screened_structural": 4,
+        "status_200": 4,
+        "status_404": 1
+      },
+      {
+        "host": "ark-ui.com",
+        "raw_structural": 2,
+        "recorded": 2,
+        "screened_structural": 2,
+        "status_200": 2,
+        "status_404": 0
+      },
+      {
+        "host": "kobalte.dev",
+        "raw_structural": 2,
+        "recorded": 2,
+        "screened_structural": 2,
+        "status_200": 2,
+        "status_404": 0
+      },
+      {
+        "host": "blueprintjs.com",
+        "raw_structural": 0,
+        "recorded": 1,
+        "screened_structural": 0,
+        "status_200": 1,
+        "status_404": 0
+      },
+      {
+        "host": "eui.elastic.co",
+        "raw_structural": 1,
+        "recorded": 1,
+        "screened_structural": 1,
+        "status_200": 1,
+        "status_404": 0
+      }
+    ],
+    "rows": 1000000,
+    "sections": {
+      "1": {
+        "hosts": 42,
+        "inverse_host_concentration": 15.160504621427805,
+        "live_statuses": {
+          "0": 592,
+          "200": 1674,
+          "404": 28128,
+          "410": 3,
+          "500": 1,
+          "502": 1
+        },
+        "logged_targets": 30399,
+        "rows": 250000,
+        "top_hosts": [
+          [
+            "developer.apple.com",
+            16888
+          ],
+          [
+            "primeng.org",
+            16835
+          ],
+          [
+            "primevue.org",
+            16830
+          ],
+          [
+            "element-plus.org",
+            16819
+          ],
+          [
+            "design-system.service.gov.uk",
+            16810
+          ],
+          [
+            "designsystem.digital.gov",
+            16804
+          ],
+          [
+            "m3.material.io",
+            16793
+          ],
+          [
+            "flowbite.com",
+            16793
+          ],
+          [
+            "service-manual.nhs.uk",
+            16785
+          ],
+          [
+            "vuetifyjs.com",
+            16749
+          ]
+        ],
+        "unique_targets": 249862
+      },
+      "2": {
+        "hosts": 24,
+        "inverse_host_concentration": 6.254460912938161,
+        "live_statuses": {},
+        "logged_targets": 0,
+        "rows": 250000,
+        "top_hosts": [
+          [
+            "developer.mozilla.org",
+            41336
+          ],
+          [
+            "eslint.org",
+            40796
+          ],
+          [
+            "stylelint.io",
+            40728
+          ],
+          [
+            "w3.org",
+            40600
+          ],
+          [
+            "web.dev",
+            40600
+          ],
+          [
+            "typescriptlang.org",
+            40600
+          ],
+          [
+            "react.dev",
+            3981
+          ],
+          [
+            "www.w3.org",
+            252
+          ],
+          [
+            "pkg.go.dev",
+            202
+          ],
+          [
+            "docs.rs",
+            190
+          ]
+        ],
+        "unique_targets": 248289
+      },
+      "3": {
+        "hosts": 79,
+        "inverse_host_concentration": 14.124171982281842,
+        "live_statuses": {},
+        "logged_targets": 0,
+        "rows": 250000,
+        "top_hosts": [
+          [
+            "stripe.com",
+            18200
+          ],
+          [
+            "vercel.com",
+            18200
+          ],
+          [
+            "cloudflare.com",
+            18200
+          ],
+          [
+            "supabase.com",
+            18200
+          ],
+          [
+            "linear.app",
+            18200
+          ],
+          [
+            "posthog.com",
+            18200
+          ],
+          [
+            "datadoghq.com",
+            18200
+          ],
+          [
+            "atlassian.com",
+            18200
+          ],
+          [
+            "hubspot.com",
+            18200
+          ],
+          [
+            "twilio.com",
+            18200
+          ]
+        ],
+        "unique_targets": 250000
+      },
+      "4": {
+        "hosts": 35,
+        "inverse_host_concentration": 13.94350035561704,
+        "live_statuses": {},
+        "logged_targets": 0,
+        "rows": 250000,
+        "top_hosts": [
+          [
+            "lygia.xyz",
+            18642
+          ],
+          [
+            "api.playcanvas.com",
+            18546
+          ],
+          [
+            "newdocs.phaser.io",
+            18530
+          ],
+          [
+            "p5js.org",
+            18393
+          ],
+          [
+            "doc.babylonjs.com",
+            18338
+          ],
+          [
+            "aframe.io",
+            18331
+          ],
+          [
+            "docs.godotengine.org",
+            18310
+          ],
+          [
+            "threejs.org",
+            18300
+          ],
+          [
+            "playground.babylonjs.com",
+            18300
+          ],
+          [
+            "developer.playcanvas.com",
+            18300
+          ]
+        ],
+        "unique_targets": 249909
+      }
+    },
+    "tags": {
+      "3D": 250000,
+      "FE": 1000000,
+      "GL": 250000,
+      "Perf": 250000,
+      "SaaS": 500000,
+      "UI": 750000
+    },
+    "top_hosts": [
+      [
+        "developer.mozilla.org",
+        41336
+      ],
+      [
+        "eslint.org",
+        40796
+      ],
+      [
+        "stylelint.io",
+        40728
+      ],
+      [
+        "w3.org",
+        40600
+      ],
+      [
+        "web.dev",
+        40600
+      ],
+      [
+        "typescriptlang.org",
+        40600
+      ],
+      [
+        "lygia.xyz",
+        18642
+      ],
+      [
+        "api.playcanvas.com",
+        18546
+      ],
+      [
+        "newdocs.phaser.io",
+        18530
+      ],
+      [
+        "p5js.org",
+        18393
+      ],
+      [
+        "doc.babylonjs.com",
+        18338
+      ],
+      [
+        "aframe.io",
+        18331
+      ],
+      [
+        "docs.godotengine.org",
+        18310
+      ],
+      [
+        "threejs.org",
+        18300
+      ],
+      [
+        "playground.babylonjs.com",
+        18300
+      ],
+      [
+        "developer.playcanvas.com",
+        18300
+      ],
+      [
+        "phaser.io",
+        18300
+      ],
+      [
+        "pixijs.download",
+        18300
+      ],
+      [
+        "pixijs.com",
+        18300
+      ],
+      [
+        "stripe.com",
+        18200
+      ]
+    ]
+  },
+  "method": {
+    "candidate_rule": "Legacy screened structural + 2xx + no recorded crawlError; first source ID per target",
+    "candidate_warning": "Candidates are initial-HTML observations, not visually validated designs. Flag screen is heuristic, not a gold standard.",
+    "host_weighting": "Mean of each hostname's within-host feature proportion; not an estimate of the whole web",
+    "network_requests": 0,
+    "snapshot_signature": "Exact saved title, headings, navigation, tagCounts; not HTML, CSS or a design identity",
+    "target_normalization": "Remove URL fragment only; retain query, slash, scheme and case"
+  },
+  "schema_version": 2
+}
