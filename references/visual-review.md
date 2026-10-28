@@ -40,6 +40,10 @@ For each relevant check record **observed pass**, **issue found**, or **not chec
 
 Use a wide and a narrow viewport appropriate to the project; 1280 × 720 and 390 × 844 are the v2 study's recording conditions, not required device standards. Check an intermediate size if content breaks between them. Test long content, no results, errors or unavailable data only where those states exist or matter. Use relevant project accessibility and browser tooling; this skill does not certify standards conformance.
 
+For a token or settings change, inspect the element it claims to affect in its applicable view. An editor can reduce the page's available width without changing the browser width; check that container, its wrapping and any breakpoint cap. Inspect both the intended effect and a nearby role that should stay unchanged. A changed custom property or a correct computed font weight does not by itself prove a visible difference in the rendered glyphs.
+
+Check color roles on the surfaces they actually occupy: secondary metadata may pass against paper and fail against a card; an inverted strip needs its own foreground/background pairing. Report which pairs and states are checked, rather than treating one ratio as a whole-page result. If a printable view is part of the task, inspect the generated output, including page count, blank pages, essential data and a dark-theme input. Print-media CSS alone does not establish a usable sheet.
+
 ## Compare visual choices fairly
 
 For an isolated setting comparison, keep content, assets, data, viewport and page state fixed. Change one named dimension, preserve a baseline and make reset easy. Label a broader redesign as a **concept comparison** rather than an isolated experiment.
@@ -77,3 +81,5 @@ These are evaluation inputs, not a claim that independent model trials have run.
 | “The reference is blocked; use its directory description.” | No fabricated visual observation; a clearly labeled design proposal |
 
 To make a future effectiveness claim, compare version 1 and version 2 on identical briefs with matched tools and conditions, using actual rendered outputs, task checks and blinded preference feedback. Record failures as well as successes.
+
+The [Low Water implementation study](../reports/low-water-implementation-study.md) provides observed failure/correction pairs behind the 2.0.1 review refinements. It supports these bounded checks, not an independent effectiveness result for the skill.

@@ -4,7 +4,11 @@ Use only when a user asks for experimentation, settings or alternative versions.
 
 ## Make settings meaningful
 
-Expose the dimensions that the implemented page actually uses. A setting with no visible effect is a defect. Keep labels understandable; show units for numeric settings and the affected role or component.
+Expose dimensions that the implemented page actually uses. Name the affected role or component and show numeric units. Verify the effect on that rendered component in an applicable view and at the actual preview width; changing a CSS variable alone is insufficient.
+
+Distinguish a defect from an inactive condition. A card control may require Cards view; columns may have a narrow-layout cap; reduced motion can deliberately override a duration; a font may lack a distinct intermediate weight. Explain the condition and make the affected view easy to reach. Fix a value that never reaches its intended component, or changes unrelated roles. In the Low Water test case, a card-gap token also changes filter spacing, while a fixed breakpoint rule ignores the selected column count. Both need scoped corrections, not a global restyle.
+
+Keep the editor's own type, surfaces and focus treatment independent of the specimen's experimental tokens. Otherwise an unreadable experiment can also hide the controls needed to recover it. When precise tuning is requested, pair a slider or picker with an editable number or color value. Incomplete input should retain the last valid preview; correction, blur or reset should restore a coherent valid field state.
 
 | Group | Useful editable properties | Dependencies to preserve |
 |---|---|---|
@@ -22,6 +26,8 @@ Separate **content**, **layout**, **style**, and **behavior** values in state so
 ## Preserve an inspectable baseline
 
 Store a named baseline, current settings, and the changed properties. If an application persists settings, version the schema and handle missing or unsupported values explicitly. Prefer one source of truth for shared tokens; avoid scattered overrides that make the editor misleading.
+
+Derive preset names, comparison labels and the change list from the actual configuration. Undo, imports and restores must not leave a previous preset's label attached to different values. Validate an entire import before applying any part; test one invalid value late in the file to expose partial writes.
 
 A compact schema might contain:
 
@@ -49,7 +55,11 @@ These numbers are illustrative starting values, not research-derived optima. Ada
 
 Use side-by-side views when the available width keeps both readable. Otherwise use an explicit A/B switch that preserves scroll, selection and data where feasible. A small change summary should identify actual before/after values. Include a reliable return to baseline.
 
+If saved versions are requested, store independent snapshots. State whether Save captures the current editable design or the visible comparison reference. Give a visual-only restore a distinct meaning from restoring visuals and copy. A visual comparison can intentionally show saved styles with current copy; label that choice. Keep explicit restore actions as separate Undo steps, even when rapid; coalesce only continuous editing where that matches the user's action. A no-change action should not create a misleading recovery step. Handle duplicate imports, version limits and removal recovery in proportion to the feature.
+
 When controls allow an unreadable or broken combination, indicate the concrete problem and offer a reset; do not silently change unrelated values. Check keyboard use and narrow layouts of the editor as well as the preview. For exported configurations, validate field types and supported options before applying them.
+
+These refinements come from the [Low Water implementation study](../reports/low-water-implementation-study.md), a local application test rather than new million-site evidence or a preference benchmark.
 
 ## Example experiment
 
