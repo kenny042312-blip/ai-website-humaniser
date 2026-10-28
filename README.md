@@ -1,10 +1,10 @@
-# AI Website Humaniser 2.0.1
+# AI Website Humaniser 2.0.2
 
 A Codex skill for turning generic websites into designs whose content, composition and behavior fit their audience and purpose.
 
-**Version:** `2.0.1` · **Release:** [`v2.0.1`](https://github.com/kenny042312-blip/ai-website-humaniser/releases/tag/v2.0.1)
+**Version:** `2.0.2` · **Release:** [`v2.0.2`](https://github.com/kenny042312-blip/ai-website-humaniser/releases/tag/v2.0.2)
 
-Patch 2.0.1 refines the settings and review guidance using observed failures in the Low Water test case: conditional control effects, unintended token coupling, copy-preserving comparisons, input recovery, color roles and printed output. The [implementation study](reports/low-water-implementation-study.md) records those observations. These additions apply when the requested site needs them; the skill does not require a settings editor or saved-version library on ordinary websites.
+Patch 2.0.2 adds focused guidance for reachable previews, visible keyboard focus, usable controls in short windows, and long saved labels. These corrections come from the Low Water test case and extend 2.0.1's work on conditional controls, scoped tokens, comparison and recovery. The [implementation study](reports/low-water-implementation-study.md) records observations, corrections and the private application's verified publication. These additions apply when the requested site needs them; the skill does not require an editor or saved-version library on ordinary websites.
 
 ## What changes in version 2
 
@@ -54,7 +54,8 @@ Use $ai-website-humaniser to create two layout concepts using identical content,
 | [Visual audit](reports/visual-audit-v2.json) | Browser observations and CSS measurements |
 | [Validation](reports/validation-v2.md) | Checks performed and their limits |
 | [Implementation study](reports/low-water-implementation-study.md) | Observed Low Water failures, corrections and conditional transfer lessons |
-| [Patch validation](reports/validation-v2.0.1.md) | Checks for the 2.0.1 guidance update |
+| [Current patch validation](reports/validation-v2.0.2.md) | Checks and limits for the 2.0.2 guidance update |
+| [Earlier patch validation](reports/validation-v2.0.1.md) | Historical checks for the 2.0.1 guidance update |
 | [Reanalysis script](scripts/reanalyse_corpus.py) | Offline reproduction with the original extracted inputs |
 | [Codex metadata](agents/openai.yaml) | Display name and default prompt |
 
