@@ -6,6 +6,16 @@ A Codex skill for websites whose content, composition and behavior fit their aud
 
 Version 3 integrates a complete review of [Elaya's AI Design Skills](https://github.com/elayadesign/ai-design-skills/tree/4fdcdd52f15eda09da1257c303c860c13e0c879f) with the Humaniser's existing research and Low Water implementation findings. The source is not Claude-only: its README also lists Codex and other tools. The [integration report](reports/research-v3.md) explains what is added, already covered, corrected or retained as an optional design choice.
 
+## See v3 in use: Side A cinema
+
+[![Side A desktop preview: bold cinema typography, original film artwork and an orange feature panel](docs/screenshots/desktop.png)](https://kenny042312-blip.github.io/ai-website-humaniser/)
+
+**[Open the interactive demo](https://kenny042312-blip.github.io/ai-website-humaniser/)** · **[Browse the source and design notes](docs/README.md)** · **[See the mobile preview](docs/screenshots/mobile.png)**
+
+Side A is a fictional independent cinema made with Humaniser v3: three invented films, six screenings, original generated artwork and a browser-local shortlist. Try the day/format filters, film notes, save/remove controls, clear-and-undo, and text-file download. No account or ticket checkout is involved.
+
+This is a post-release example of the skill in use, not a controlled comparison or an authorship test. [Validation notes](docs/validation.md) distinguish observed checks from limitations. The showcase lives in `docs/`; the `v3.0.0` tag and downloadable skill package remain unchanged.
+
 ## What v3 adds
 
 - **Landing-page strategy:** visitor intent, arrival promise, objections, evidence, page structures and accurate CTA copy.
