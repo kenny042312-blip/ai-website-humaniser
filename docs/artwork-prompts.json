@@ -1,0 +1,21 @@
+{
+  "method": "Built-in image_gen tool; separate generation for each fictional film. Originals copied unchanged.",
+  "date": "2026-10-31",
+  "assets": [
+    {
+      "key": "city",
+      "prompt": "Use case: photorealistic editorial film still. Asset type: wide hero artwork for a fictional independent cinema website. Primary request: original cinematic still for the invented film 'The City at 2:17', no text. Scene: almost empty elevated train platform after midnight, wet pavement, warm fluorescent shelter, a single woman in an orange coat with a small overnight bag stands off-center at the right looking down the tracks. Long quiet perspective, old analog clock visible but small, ordinary urban details. A silver train blurred in the deep background. Composition: landscape 3:2, eye-level wide shot, spacious shadowed left third for later HTML typography. Style: natural 35mm analog film photograph, understated observational cinema, subtle grain, slight halation, tactile damp surfaces. Palette: forest green shadows, amber shelter, chalk-white light, muted orange coat. Lighting: realistic mixed fluorescent and sodium light, subdued and rich, not neon cyberpunk. Constraints: no typography, no film branding, no watermark, no recognizable real person or location, no glossy sci-fi, no excessive lens flare.",
+      "saved_path": "assets/city.png"
+    },
+    {
+      "key": "tune",
+      "prompt": "Use case: photorealistic editorial film still. Asset type: landscape artwork for a fictional independent cinema film 'A Little Out of Tune'. Primary request: original black-and-white intimate documentary-style still of a tiny amateur band rehearsing in a cramped neighborhood community hall, no text. Scene: one woman seated at upright piano on the left, man with trumpet standing center-left, a drummer only partly visible in right foreground. Cables, a mismatched chair, peeling painted wall, unglamorous lived-in space. Composition: offhand but carefully framed, waist height across room, 3:2 landscape, subjects occupy different depth planes, slight motion blur in trumpet player's hands, faces small and candid. Style: rich black-and-white 35mm film, luminous window side light, deep soft shadows, honest documentary grain, no slick music-video lighting. Constraints: fictional people, no famous faces, no text, no logos, no watermarks, not stock-photo smiles.",
+      "saved_path": "assets/tune.png"
+    },
+    {
+      "key": "blue",
+      "prompt": "Use case: photorealistic editorial film still. Asset type: landscape artwork for a fictional independent cinema film 'Blue Hour, Nowhere'. Primary request: a quiet slightly surreal summer film still of an almost empty outdoor swimming pool behind a modest faded motel, no text. Scene: pale turquoise empty swimming pool with a small rectangle of shallow water at its deep end, one sun-faded orange plastic chair at the edge, pale yellow building with blue doors beyond, tall scrubby vegetation and distant mountains. One very small person in a towel seen from behind at far end. Composition: high-angle oblique wide shot, 3:2 landscape, bold pool geometry across the foreground, no central symmetry. Style: tactile 16mm color film photograph, dusty pastel warmth, sunlight just before sunset, subtle natural grain, atmospheric and specific. Constraints: no text, no branding, no watermarks, no luxury resort, no architectural rendering.",
+      "saved_path": "assets/blue.png"
+    }
+  ]
+}

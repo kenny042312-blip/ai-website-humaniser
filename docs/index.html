@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#191a17">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Side A — stay for the credits</title>
+  <meta name="description" content="A fictional independent cinema. Three films, six screenings, and something to talk about on the way home. Explore the programme and make a local shortlist.">
+  <link rel="canonical" href="https://kenny042312-blip.github.io/ai-website-humaniser/">
+  <meta property="og:title" content="Side A — stay for the credits">
+  <meta property="og:description" content="An independent cinema imagined for the screen. Explore a fictional weekend programme.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kenny042312-blip.github.io/ai-website-humaniser/">
+  <meta property="og:image" content="https://kenny042312-blip.github.io/ai-website-humaniser/assets/city.png">
+  <meta property="og:image:alt" content="Original fictional film artwork: a traveller on a night-time train platform.">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="preload" href="./assets/fonts/BarlowCondensed-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#programme">Skip to programme</a>
+  <div class="demo-strip"><span>A fictional cinema. A real design experiment.</span><span>HUMANISER / VOL. 03</span></div>
+  <header class="site-header shell">
+    <a class="wordmark" href="#top" aria-label="Side A home">SIDE <span class="logo-a">A</span><span class="logo-dot" aria-hidden="true">●</span></a>
+    <p class="brand-caption">INDEPENDENT FILMS.<br>SHARED IN THE DARK.</p>
+    <nav aria-label="Main navigation"><a href="#programme">Programme</a><a href="#our-way">Our kind of cinema</a></nav>
+    <button class="shortlist-trigger" data-open-shortlist><span>My shortlist</span><span class="saved-count" aria-hidden="true">0</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3h10v18l-5-4-5 4z"/></svg></button>
+  </header>
+
+  <main id="top">
+    <section class="opening shell" aria-labelledby="site-title">
+      <div class="edition"><span>THE WEEKEND EDITION / 001</span><span>06—08 NOVEMBER 2026</span></div>
+      <div class="masthead"><h1 id="site-title">STAY FOR<br>THE CREDITS<span class="orange">.</span></h1><div class="opening-note"><span class="asterisk" aria-hidden="true">✳</span><p>For the film you came to see. <br>And the one you didn’t know<br>you needed.</p><a class="text-link" href="#programme">Find your film <span aria-hidden="true">↘</span></a></div></div>
+      <div class="feature">
+        <div class="feature-image"><img src="./assets/city.png" alt="A lone traveller in an orange coat waits on a rain-soaked train platform at night." width="1536" height="1024" fetchpriority="high"><div class="image-label"><span>OPENING THE WEEKEND</span><span>01 / 03</span></div><p class="image-caption">Some detours are worth missing<br>the last train for.</p></div>
+        <article class="feature-info"><div class="feature-kicker"><span>THE FRIDAY PICK</span><span aria-hidden="true">↗</span></div><p class="overline">MIRA SEN / 2026 / 104 MIN</p><h2>THE CITY<br>AT 2:17</h2><p class="feature-description">A missed connection. An overnight city. Two strangers with nowhere urgent to be.</p><div class="feature-show"><span>FRI 06 NOV</span><strong>20:30</strong><span>35MM · ENGLISH SUBTITLES</span></div><button class="button button-ink" data-film="city">Meet the film <span aria-hidden="true">↗</span></button></article>
+      </div>
+      <div class="feature-footnote"><span>THIS WEEKEND: NIGHT WANDERERS, HAPPY ACCIDENTS & A POOL WITH NO WATER.</span><a href="#programme" aria-label="Scroll to the full programme">SCROLL FOR THE LINE-UP <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="programme shell" id="programme" aria-labelledby="programme-title">
+      <div class="section-top"><div><p class="eyebrow">01 / ON THE SCREEN</p><h2 id="programme-title">MAKE A NIGHT OF IT.</h2></div><p>Three films. Six ways in. <br>Pick a time. Keep it on your list.</p></div>
+      <div class="programme-tools">
+        <div class="date-filters" role="group" aria-label="Screening day"><button data-day="all" aria-pressed="true">All weekend</button><button data-day="6" aria-pressed="false">Fri <span>06</span></button><button data-day="7" aria-pressed="false">Sat <span>07</span></button><button data-day="8" aria-pressed="false">Sun <span>08</span></button></div>
+        <label class="format-label">Format <select id="format-filter"><option value="all">All formats</option><option value="35mm">35mm</option><option value="DCP">Digital (DCP)</option></select></label>
+      </div>
+      <div class="results-line"><p id="results-status" aria-live="polite" aria-atomic="true">3 films · 6 screenings</p><span>All times belong to this fictional programme.</span></div>
+      <div id="film-grid" class="film-grid"></div>
+      <div id="no-results" class="empty-state" hidden><span class="empty-symbol" aria-hidden="true">∅</span><h3>Nothing on this reel.</h3><p>No screenings match that day and format. There’s more on the full programme.</p><button class="button button-light" id="reset-filters">Show all screenings <span aria-hidden="true">↗</span></button></div>
+      <noscript><p class="noscript-note">Enable JavaScript to filter the programme, open film notes and keep a shortlist. The featured film is The City at 2:17, Friday 6 November at 20:30. This is a fictional demonstration.</p></noscript>
+      <p class="programme-caption"><span class="small-cross" aria-hidden="true">+</span> Choose a screening time to read more and save it. Your shortlist stays in this browser.</p>
+    </section>
+
+    <section class="editorial" id="our-way" aria-labelledby="editorial-title"><div class="shell editorial-grid">
+      <div class="editorial-rail"><p class="eyebrow">02 / FROM THE BOOTH</p><div class="reel-symbol" aria-hidden="true"><span>A</span><i></i><i></i><i></i><i></i></div><span class="rail-caption">A NOTE ON<br>THE PROGRAMME</span></div>
+      <div class="editorial-main"><h2 id="editorial-title">THE BEST PART<br>IS THE WALK<br><span>HOME.</span></h2><div class="editorial-copy"><p>That half-hour when the film hasn’t quite let you go. You take the long way. You argue about the ending. A perfectly ordinary street looks a little different.</p><p>That’s the thread through this opening programme: people getting lost, getting it wrong, finding something anyway. One city after midnight. One gloriously imperfect band. One summer that refuses to end.</p><p class="editorial-signoff">Three films that leave the door open.<br><span>— The Side A programme</span></p></div></div>
+      <aside class="programme-slip"><span class="slip-label">KEEP THIS IN MIND</span><h3>A SMALL<br>PLAN FOR<br>A BIG NIGHT.</h3><ol><li><span>01</span>Pick the film that makes you curious.</li><li><span>02</span>Save a screening to your shortlist.</li><li><span>03</span>Leave a little room for a second one.</li></ol><button class="slip-link" data-open-shortlist>Open my shortlist <span aria-hidden="true">↗</span></button><span class="slip-bottom">SIDE A / YOUR WEEKEND, EDITED.</span></aside>
+    </div></section>
+
+    <section class="about-demo shell" aria-labelledby="about-title"><div><p class="eyebrow">BEFORE THE LIGHTS COME UP</p><h2 id="about-title">An imaginary cinema.<br>A working little website.</h2></div><div class="about-copy"><p>Side A is a fictional place, made to explore a different kind of web design. The films, filmmakers and screenings are invented; the film artwork is generated for this project.</p><p>You can explore the programme and save screenings on this device. There are no tickets to buy, messages to send or accounts to make.</p><a class="text-link" href="https://github.com/kenny042312-blip/ai-website-humaniser/releases/tag/v3.0.0" target="_blank" rel="noopener">Made with Humaniser v3 <span class="sr-only">(opens in a new tab)</span><span aria-hidden="true">↗</span></a></div></section>
+  </main>
+
+  <footer class="site-footer shell"><div class="footer-wordmark" aria-hidden="true">SIDE A<span>↗</span></div><div class="footer-bottom"><p>A GOOD FILM IS A GOOD PLACE TO START.</p><a href="#top">BACK TO THE TOP <span aria-hidden="true">↑</span></a><p>FICTIONAL PROGRAMME / 2026</p></div></footer>
+
+  <dialog id="film-dialog" aria-labelledby="film-dialog-title"><div class="dialog-sticky"><span>FILM NOTES / SIDE A</span><button class="icon-button" data-close-dialog aria-label="Close film details"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><div id="film-dialog-content"></div></dialog>
+  <dialog id="shortlist-dialog" aria-labelledby="shortlist-title"><div class="dialog-sticky"><span>YOUR WEEKEND / SIDE A</span><button class="icon-button" data-close-dialog aria-label="Close shortlist"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><div class="shortlist-body"><p class="eyebrow">A FEW GOOD HOURS</p><h2 id="shortlist-title" tabindex="-1">MY SHORTLIST<span class="orange">.</span></h2><p id="storage-note">Saved in this browser. This is a plan, not a ticket reservation.</p><div id="shortlist-content"></div><div class="shortlist-actions" id="shortlist-actions"><button class="button button-ink" id="download-list">Download my list <span aria-hidden="true">↓</span></button><button class="quiet-button" id="clear-list">Clear shortlist</button></div><div id="clear-feedback" hidden><p>Shortlist cleared.</p><button class="quiet-button" id="undo-clear">Undo</button></div></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
