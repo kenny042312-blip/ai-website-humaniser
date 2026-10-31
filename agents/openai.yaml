@@ -1,4 +1,4 @@
 interface:
-  display_name: "AI Website Humaniser 2.0"
+  display_name: "AI Website Humaniser 3.0"
   short_description: "Turn generic websites into specific, coherent designs"
   default_prompt: "Use $ai-website-humaniser to improve this website's content, composition, and visual identity while preserving its purpose and working behavior."
