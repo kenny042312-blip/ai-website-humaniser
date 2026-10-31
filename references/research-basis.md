@@ -43,6 +43,8 @@ Cases contain counterexamples to universal bans on cards, pills, purple, Inter a
 
 ## Sources and further detail
 
+Version 3 adds a separate [external-skill integration report](../reports/research-v3.md), based on all seven tracked files in a pinned Elaya repository revision. Its new strategy, visual-system, state, motion and publishing guidance is an instruction adaptation, not another rendered website case. The original corpus figures below do not grow. The [optional numerical recipe](elaya-visual-recipe.md) describes that source's aesthetic choices, not measured optima.
+
 - [Full v2 research report](../reports/research-v2.md): methods, calculations, limitations, case links and implications.
 - [Recomputed statistics](../reports/corpus-audit-v2.json): exact counts, host weighting and input SHA-256 hashes.
 - [Visual records](../reports/visual-audit-v2.json): source IDs, URLs, viewports and observed limitations.

@@ -58,6 +58,8 @@ This note's purpose is to justify a decision. It does not prove that the decisio
 
 Avoid turning these into a fixed theme. The research contains no optimum font size, radius, palette, grid ratio or animation duration.
 
+When these relationships need a reusable implementation, use [visual system](visual-system.md) for named text roles, spacing and nested geometry. For a landing page's argument, use [landing-page strategy](landing-page-strategy.md). Keep the visitor's task primary; a named style or an offer outline is a tool, not a mandatory page template.
+
 ## Three transfer examples
 
 These are fictional implementation proposals, not outcomes of user testing.

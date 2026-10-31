@@ -40,6 +40,8 @@ For each relevant check record **observed pass**, **issue found**, or **not chec
 
 Use a wide and a narrow viewport appropriate to the project; 1280 × 720 and 390 × 844 are the v2 study's recording conditions, not required device standards. Check an intermediate size if content breaks between them. Test long content, no results, errors or unavailable data only where those states exist or matter. Use relevant project accessibility and browser tooling; this skill does not certify standards conformance.
 
+For a landing page, trace the arrival promise, visible claim, supporting evidence and actual action outcome. For animation or asynchronous work, use [motion and states](motion-and-states.md) to inspect interruptions, real waiting, recovery and readable fallbacks. For a public launch or changed routes/metadata, use [shipping review](shipping-review.md). Apply these checks to the actual scope; do not create features just to check them off.
+
 For a fixed editor or overlay, include a short viewport and keyboard movement across its boundaries. Confirm that focus is visible and usable, not merely that an element owns focus in the DOM. Check the remaining control area, scroll containment, close/return behavior and resize transitions. When the interface displays user-entered names in several places, exercise a valid long value in those secondary labels too.
 
 Name the test that actually runs. Resizing a CSS viewport checks reflow; it does not establish text resizing, browser zoom, a physical device or a screen-reader result. Before reporting a successful emulation check, confirm that the intended rendering or behavior changes. A tool accepting an emulation command is insufficient evidence.
