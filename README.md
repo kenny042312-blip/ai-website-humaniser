@@ -1,62 +1,82 @@
-# AI Website Humaniser 2.0.2
+# AI Website Humaniser 3.0
 
-A Codex skill for turning generic websites into designs whose content, composition and behavior fit their audience and purpose.
+A Codex skill for websites whose content, composition and behavior fit their audience and purpose.
 
-**Version:** `2.0.2` · **Release:** [`v2.0.2`](https://github.com/kenny042312-blip/ai-website-humaniser/releases/tag/v2.0.2)
+**Version:** `3.0.0` · **Release:** [`v3.0.0`](https://github.com/kenny042312-blip/ai-website-humaniser/releases/tag/v3.0.0)
 
-Patch 2.0.2 adds focused guidance for reachable previews, visible keyboard focus, usable controls in short windows, and long saved labels. These corrections come from the Low Water test case and extend 2.0.1's work on conditional controls, scoped tokens, comparison and recovery. The [implementation study](reports/low-water-implementation-study.md) records observations, corrections and the private application's verified publication. These additions apply when the requested site needs them; the skill does not require an editor or saved-version library on ordinary websites.
+Version 3 integrates a complete review of [Elaya's AI Design Skills](https://github.com/elayadesign/ai-design-skills/tree/4fdcdd52f15eda09da1257c303c860c13e0c879f) with the Humaniser's existing research and Low Water implementation findings. The source is not Claude-only: its README also lists Codex and other tools. The [integration report](reports/research-v3.md) explains what is added, already covered, corrected or retained as an optional design choice.
 
-## What changes in version 2
+## What v3 adds
 
-- Diagnoses visible problems before restyling and preserves narrow requests.
-- Helps choose a content form, visual hierarchy, type roles, density, boundaries and imagery.
-- Includes practical guidance for editable settings, baselines, reset and fair A/B comparisons.
-- Separates functional checks, visual review and user preference.
-- Adds a deeper research report, reproducible offline analysis and a bounded visual case study.
+- **Landing-page strategy:** visitor intent, arrival promise, objections, evidence, page structures and accurate CTA copy.
+- **Reusable visual systems:** named text styles, spacing roles, nested corners, icon consistency and asset treatment.
+- **Interaction and motion detail:** relevant states, real loading, recoverable errors, navigation transitions and readable animation fallbacks.
+- **Publication checks:** real routes/forms, indexing, not-found status, favicon and social metadata.
+- **An optional Elaya recipe:** the source's typography, named styles, spacing, palette, hero, icon and motion values, kept together as a declared visual concept.
 
-The research reanalyses **1,010,816 saved URL rows** and **41,215 saved observation records**. It does **not** claim one million visually reviewed websites. The new browser study attempts ten pages, with seven usable initial views, one partial imagery view and two incomplete renders; three pages also receive mobile checks. Read the [report](reports/research-v2.md) for the evidence and limitations.
+These additions load only when relevant. A small typography request stays small. An operations dashboard keeps its operational structure. Existing brand fonts, cards, colors and accepted choices are preserved unless the requested change calls for something else. The recipe does not become a universal theme.
+
+The core skill retains reference-led composition, specific content, responsive task preservation, visual review, and detailed settings/baseline/reset guidance when an editor is requested. [Low Water](reports/low-water-implementation-study.md) supplies the existing application findings about token scope, comparison, focus, short windows and long labels.
+
+## Evidence, accurately stated
+
+The historical research reanalyses **1,010,816 saved URL rows** and **41,215 observation records**. It does **not** claim one million visually reviewed sites. Its ten-page browser study has seven usable initial views, one partial imagery view and two incomplete renders; three pages also receive mobile checks. [Original report](reports/research-v2.md)
+
+V3 reads all **seven tracked files** in the pinned external repository, including its one design skill. It adds no external rendered-site cases or crawl results. Its additions are attributed instruction adaptations, not evidence of higher conversion or a measured preference improvement. See [v3 validation](reports/validation-v3.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Install or update
 
-Download the source archive from the tagged release and place the repository's contents in a folder named `ai-website-humaniser` in your skill directory. Current [Codex documentation](https://learn.chatgpt.com/docs/build-skills) lists `~/.agents/skills/` for user-level discovery and `.agents/skills/` for repository-level discovery.
+Download `ai-website-humaniser-v3.0.0.zip` from the release and keep the entire `ai-website-humaniser` folder, including its references and notices. Current [OpenAI documentation](https://learn.chatgpt.com/docs/build-skills) lists `~/.agents/skills/` for user-level discovery and `.agents/skills/` for repository-level discovery.
 
-If you already have version 1 installed in a directory recognized by your Codex installation, replace that existing skill's files with this package rather than creating a second skill with the same name. Some existing installations use `~/.codex/skills/`; preserve the location that already works there. Keep a backup outside the skill discovery folder if needed. If the update does not appear, restart Codex.
+If this skill is already installed in a recognized location, update that existing folder rather than creating a duplicate with the same name. Some existing installations recognize `~/.codex/skills/`; preserve the working location. Keep a recovery copy outside skill discovery. Codex detects changes automatically; restart it if an update does not appear. Do not copy only `SKILL.md`, because its conditional references are part of the skill.
 
-Invoke it in Codex with:
+Invoke it as:
 
 ```text
-Use $ai-website-humaniser to improve this site while keeping its content and working interactions.
+Use $ai-website-humaniser to improve this website while preserving its purpose, content and working behavior.
 ```
 
-For a focused request:
+For a focused edit:
 
 ```text
-Use $ai-website-humaniser to improve only the typography and spacing. Keep the colors and cards.
+Use $ai-website-humaniser to refine only the typography and spacing. Keep our colors and rounded cards.
 ```
 
-For experimentation:
+For a new offer page:
 
 ```text
-Use $ai-website-humaniser to create two layout concepts using identical content, with a baseline and a clear account of what changes.
+Use $ai-website-humaniser to build a landing page from these product facts. Make the main action clear and identify any unsupported claims before publication.
+```
+
+For a comparison:
+
+```text
+Use $ai-website-humaniser to compare a subject-specific direction with the optional Elaya recipe, using identical content and a recoverable baseline.
 ```
 
 ## Package map
 
-| File | Purpose |
+| Resource | Use |
 |---|---|
-| [SKILL.md](SKILL.md) | Working entrypoint, scope selection and handoff |
-| [Design decisions](references/design-decisions.md) | Symptoms, content forms and concrete transfer examples |
-| [Visual review](references/visual-review.md) | Reference inspection, task checks and comparison method |
-| [Controls and variants](references/controls-and-variants.md) | Detailed settings and baseline behavior when requested |
-| [Research basis](references/research-basis.md) | Compact evidence summary for the skill |
-| [Research report](reports/research-v2.md) | Deeper analysis and evidence-to-skill mapping |
-| [Corpus audit](reports/corpus-audit-v2.json) | Recomputed measurements and input hashes |
-| [Visual audit](reports/visual-audit-v2.json) | Browser observations and CSS measurements |
-| [Validation](reports/validation-v2.md) | Checks performed and their limits |
-| [Implementation study](reports/low-water-implementation-study.md) | Observed Low Water failures, corrections and conditional transfer lessons |
-| [Current patch validation](reports/validation-v2.0.2.md) | Checks and limits for the 2.0.2 guidance update |
-| [Earlier patch validation](reports/validation-v2.0.1.md) | Historical checks for the 2.0.1 guidance update |
-| [Reanalysis script](scripts/reanalyse_corpus.py) | Offline reproduction with the original extracted inputs |
-| [Codex metadata](agents/openai.yaml) | Display name and default prompt |
+| [SKILL.md](SKILL.md) | Scope, core workflow and conditional routing |
+| [Landing-page strategy](references/landing-page-strategy.md) | Offer, copy, evidence and page argument |
+| [Design decisions](references/design-decisions.md) | Visible symptoms, content forms and transfer examples |
+| [Visual system](references/visual-system.md) | Text/spacing roles, geometry, icons and imagery |
+| [Motion and states](references/motion-and-states.md) | Real feedback, navigation, movement and fallbacks |
+| [Shipping review](references/shipping-review.md) | Relevant public-launch checks |
+| [Optional Elaya recipe](references/elaya-visual-recipe.md) | Source design values, attribution and applicability limits |
+| [Visual review](references/visual-review.md) | Rendered checks, fair comparisons and evidence levels |
+| [Controls and variants](references/controls-and-variants.md) | Settings, baselines, recovery and saved-version semantics |
+| [Research basis](references/research-basis.md) | Compact historical evidence summary |
+| [V3 integration report](reports/research-v3.md) | Complete source-to-change map and technical corrections |
+| [V3 source audit](reports/upstream-audit-v3.json) | Pinned source inventory and Git blob hashes |
+| [V3 validation](reports/validation-v3.md) | Performed package checks and instruction-review limits |
+| [V2 research](reports/research-v2.md) | Historical corpus methods, calculations and bounded visual study |
+| [Corpus audit](reports/corpus-audit-v2.json) / [visual audit](reports/visual-audit-v2.json) | Historical reproducible records |
+| [Implementation study](reports/low-water-implementation-study.md) | Low Water observations, fixes and verification boundaries |
+| [V2 validation](reports/validation-v2.md), [2.0.1](reports/validation-v2.0.1.md), [2.0.2](reports/validation-v2.0.2.md) | Preserved historical checks |
+| [Reanalysis script](scripts/reanalyse_corpus.py) | Optional offline reproduction with the original extracted inputs |
+| [Codex metadata](agents/openai.yaml) | Display name and invocation example |
+| [Third-party notices](THIRD_PARTY_NOTICES.md) | Attribution and MIT notices for adapted material |
 
-The offline script uses Python's standard library and is optional for ordinary design work. The large original datasets are not distributed here. The skill does not impose one aesthetic, certify authorship or promise a measured improvement in user preference. It supplies concrete decisions and a way to evaluate them.
+The original large datasets and Low Water application source are not distributed in the skill. The optional corpus script uses Python's standard library. No API key, analytics service or motion library is required by the instructions. Earlier releases remain available at their original tags.
