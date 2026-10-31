@@ -1,0 +1,78 @@
+{
+  "review_date": "2026-10-31",
+  "repository": "https://github.com/elayadesign/ai-design-skills",
+  "commit": "4fdcdd52f15eda09da1257c303c860c13e0c879f",
+  "baseline_repository": "https://github.com/kenny042312-blip/ai-website-humaniser",
+  "baseline_version": "2.0.2",
+  "baseline_commit": "f2b154364cbafd429705127ef066db09c68a8975",
+  "coverage": {
+    "tracked_files_read": 7,
+    "skill_files_read": 1,
+    "sections_read": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "Output format",
+      "Quick checklist",
+      "Credits"
+    ],
+    "linked_companion_repositories_audited": false,
+    "new_rendered_external_website_cases": 0,
+    "new_corpus_crawl_records": 0,
+    "independent_generation_trials": 0
+  },
+  "files": [
+    {
+      "path": ".github/workflows/validate-skills.yml",
+      "bytes": 529,
+      "git_blob_sha1": "81bcc686b51ab3a4ad3c68e32550db997cc2cb4c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 85,
+      "git_blob_sha1": "be4a63e693965430a6cdd6877ae5246db0f317ff"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1062,
+      "git_blob_sha1": "9ff21c8c5b2e713c357d3e15e641172a211eac21"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3168,
+      "git_blob_sha1": "f2a511a8a9547508754f6cf31a7aefd14cc76aa3"
+    },
+    {
+      "path": "scripts/validate_skills.py",
+      "bytes": 4053,
+      "git_blob_sha1": "2457e1ea99a4e6a7e877bb203697fe4283b87131"
+    },
+    {
+      "path": "skills/landing-page-design/SKILL.md",
+      "bytes": 22115,
+      "git_blob_sha1": "519a6f2cd6c942c2fb36a906b8ef7d11f78ba6d1"
+    },
+    {
+      "path": "tests/test_validate_skills.py",
+      "bytes": 4981,
+      "git_blob_sha1": "cac136cba80065544ccee779fb8892f96d4b18f8"
+    }
+  ],
+  "method": "Read all tracked files at the pinned commit; compare current Humaniser instructions; preserve source attribution; check technical concerns using linked primary documentation. This is an instruction and integration audit, not a conversion or authorship study."
+}
